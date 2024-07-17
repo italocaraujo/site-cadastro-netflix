@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box; /*ignora o elemento (padding + width)*/
+}
+
+body{
+    background-image: url("img/fundo_netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header img{
+    width: 150px;
+    margin: 30px;
+}
+
+#formulario{
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#formulario h1{
+    color: #fff;
+    font-weight: 500; /*Peso da Fonte (tira do negrito)*/
+    margin-bottom: 30px;
+}
+
+#formulario label{
+    color: #666;
+    display: block; /*Transforma o elemento em bloco*/
+}
+
+#formulario div{
+    margin-bottom: 20px;
+}
+
+#formulario div input{
+    background-color: #666;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#formulario div input[type="radio"]{
+    width: auto;
+}
+
+#formulario div input[type="radio"] + label{ /* alguma coisa avançada que eu nao entendo*/
+    display: inline;
+    margin-right: 20px;
+}
+
+#formulario div select{
+    background-color: #666;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#formulario div input[type="checkbox"]{
+    width: auto;
+    margin-top: 10px;
+    
+}
+
+#formulario div input[type="submit"]{
+    background-color: red;
+    font-weight: 600;
+    color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: #999;
+    background-color:  rgba(0,0,0,0.8);
+    text-align: center;
+}

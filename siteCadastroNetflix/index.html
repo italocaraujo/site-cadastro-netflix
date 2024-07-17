@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo_netflix.png" alt="Logo Netflix">
+    </header>
+    <div id="formulario">
+        <h1>Cadastro de usuário</h1>
+        <form action="">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf" name="cpf">
+            </div>
+            <div>
+                <label for="sexo">Sexo</label>
+
+                <input type="radio" name="sexo" id="sexo_m">
+                <label for="sexo_m">Masculino</label> 
+
+                <input type="radio" name="sexo" id="sexo_f">
+                <label for="sexo_f">Feminino</label> 
+
+                <input type="radio" name="sexo" id="sexo_o">
+                <label for="sexo_o">Outros</label> 
+            </div>
+            <div>
+                <label for="data de nascimento">Data de nascimento</label>
+                <input type="date" id="data de nascimento" name="data de nascimento">
+            </div>
+            <div>
+                <label for="e-mai">E-mail</label>
+                <input type="email" id="e-mail" name="e-mail">
+            </div>
+            <div>
+                <label for="plano">Planos</label>
+                <select name="planos" id="planos">
+                    <option value="Plano Básico">
+                        Plano Básico
+                    </option>
+                    <option value="Plano HD">
+                        Plano HD
+                    </option>
+                    <option value="Plano 4K">
+                        Plano 4K
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="genero favorito">Gêneros Favoritos</label>
+
+                <input type="checkbox" name="genero" id="romance">
+                <label for="genero">Romance</label>
+
+                <input type="checkbox" name="genero" id="acao">
+                <label for="genero">Ação</label>
+
+                <input type="checkbox" name="genero" id="supense">
+                <label for="genero">Suspense</label>
+
+                <input type="checkbox" name="genero" id="terror">
+                <label for="genero">Terror</label>
+
+                <input type="checkbox" name="genero" id="animacao">
+                <label for="genero">Animação</label>
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar ">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Dúvidas? Ligue 0800 591 8942</p>
+        <p>Netflix Brasil</p>
+    </footer>
+</body>
+</html>
